@@ -26,4 +26,38 @@ li a:hover {
   background-color: aqua;
   color: black;
 }
+
+section-1 {
+font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 25px;
+  /* width: 200px; */
+}
+
+/* article {
+  display: flex;
+  flex-flow: row wrap;
+} */
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px;
+}
+
+.card {
+  margin: 10px;
+  border: 3px solid red;
+  padding: 10px;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card h2 {
+
 }
